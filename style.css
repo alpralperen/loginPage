@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 3rem auto;
+}
+
+.mainContainer {
+  width: 25vw;
+  height: 30vh;
+  background: #bbb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 2rem;
+  border: 0.1rem solid #000;
+  box-shadow: 0.5rem 0.5rem 0.7rem;
+}
+
+.inputsContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
+}
+
+input{
+    font-size: 1.5rem;
+    margin: 0.2rem auto;
+    border-radius: 0.5rem;
+}
+
+.buttons{
+    margin-bottom: 2rem;
+}
+
+button{
+    font-size: 1.5rem;
+    width: 8vw;
+    height: 4vh;
+    border-radius: 1rem;
+    background: #00fc60;
+}
+
+#changePasswordBtn{
+    height: 6vh;
+    width: 9vw;
+}
+
+p{
+    margin-top: 3rem;
+    font-size: 2rem;
+}
